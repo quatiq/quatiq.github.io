@@ -1,0 +1,181 @@
+body{
+	background-color: #EEE;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo {
+	width: 100px;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	color: #009879;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px rgba(225, 255, 215, 0.3);
+}
+
+				button {
+					border-radius: 15px;
+					margin: 0 0 25px 5px;
+					padding: 10px;
+					overflow: hidden;
+					background: none;
+					border: 1px solid #338033;
+					transition: .6s;
+					align: left;
+					width: 200px;
+				}
+
+				button:focus {
+					outline: none;
+				}
+
+				button:before {
+					content: '';
+					display: block;
+					position: absolute;
+				}
+
+				button:hover {
+					background: #338033;
+					cursor: pointer;
+					color: white;
+				}
+
+.disabled {
+	opacity: 0.6;
+}
+
+h1, h2, h3 {
+	margin: 5px;
+}
+
+#raspis2 .content-table thead tr {
+	background-color: #00624E;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+
+#raspis4 .content-table thead tr {
+	background-color: #00624E;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+				
+#container {
+	background-color: white;
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#header {
+	background-color: #fff;
+	color: #009879;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #EEE;
+
+}
+
+#content {
+	padding: 15px;
+	position: relative;
+}
+
+#nav {
+	width: 160px;
+	float: left;
+}
+
+
+.content-table {
+	border-collapse: collapse;
+	margin: 10px;
+	font-size: 0.9em;
+	min-width: 400px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	transition: .10s;
+}
+
+.content-table thead tr {
+	background-color: #009879;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+
+
+
+.content-table th,
+.content-table td {
+	padding: 15px;
+}
+
+.content-table tbody tr {
+	border-bottom: 1px solid #ddd; 
+}
+
+.content-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr:hover {
+	color: #009879;
+}
+
+#main {
+	width: 600px;
+
+	position: relative;
+	float: right;
+}
+/*
+	Copyright down below
+*/
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #999;
+	color: white;
+	text-align: right;
+}
+
+
+li {
+  display: inline-block;
+}
+
+li a {
+	position: relative;
+	margin: 15px 25px;
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px rgba(225, 255, 215, 0.3);
+}
+
+#SLA {
+	font-family: monospace;
+	text-decoration: none;
+	position: absolute;
+	right: 10px;
+	color: #990000;
+}
